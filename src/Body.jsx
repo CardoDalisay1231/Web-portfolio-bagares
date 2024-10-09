@@ -41,7 +41,7 @@ function Body() {
         </section>
         <section className="grid grid-1">
           <figure>
-            <img src="/images/sich.png" alt />
+            <img src="./images/sich.png" alt />
           </figure>
           <figure>
             <img src="./images/3.png" alt className="autoRotate" />
