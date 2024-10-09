@@ -21,7 +21,7 @@ function Portfolio() {
                 }}
               >
                 <div className="item" style={{ "--position": index + 1 }}>
-                  <img src={`public/images/slider2_${index + 1}.png`} alt="" />
+                  <img src={`./images/slider2_${index + 1}.png`} alt="" />
                 </div>
               </a>
             ))}
