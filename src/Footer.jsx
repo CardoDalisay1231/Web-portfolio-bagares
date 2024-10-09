@@ -9,7 +9,7 @@ function Footer(){
     <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui, assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam! Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique repellat. Deserunt delectus sint debitis ad sequi laboriosam inventore consequatur nemo neque cum est nos atque.</div>
     <div>
       <figure>
-        <img src="src/images/8.png" alt />
+        <img src="public/images/8.png" alt />
       </figure>
     </div>
   </div>

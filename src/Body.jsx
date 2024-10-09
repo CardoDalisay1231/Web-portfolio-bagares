@@ -17,7 +17,7 @@ function Body() {
                 className="item"
                 style={{ "--position": index + 1 }}
               >
-                <img src={`src/images/slider1_${index + 1}.png`} alt="" />
+                <img src={`public/images/slider1_${index + 1}.png`} alt="" />
               </div>
             ))}
         </div>
@@ -33,7 +33,7 @@ function Body() {
             </div>
             <div className="image">
               <img
-                src="src/images/IMG_0635.JPG"
+                src="public/images/IMG_0635.JPG"
                 alt
               />
             </div>
@@ -41,17 +41,17 @@ function Body() {
         </section>
         <section className="grid grid-1">
           <figure>
-            <img src="src/images/sich.png" alt />
+            <img src="public/images/sich.png" alt />
           </figure>
           <figure>
-            <img src="src/images/3.png" alt className="autoRotate" />
+            <img src="public/images/3.png" alt className="autoRotate" />
           </figure>
           <h2 className="autoShow">Introduce</h2>
         </section>
         <section className="grid grid-2">
           <div className="autoShow">
             <figure>
-              <img src="src/images/6.png" alt />
+              <img src="public/images/6.png" alt />
             </figure>
             <p>
               When an unknown printer took a galley of type and scrambled it to
@@ -79,7 +79,7 @@ function Body() {
           </div>
           <div className="autoShow">
             <figure>
-              <img src="src/images/2.png" alt />
+              <img src="public/images/2.png" alt />
             </figure>
             <p>
               When an unknown printer took a galley of type and scrambled it to
@@ -90,7 +90,7 @@ function Body() {
           </div>
           <div className="autoShow">
             <figure>
-              <img src="src/images/candy.png" alt />
+              <img src="public/images/candy.png" alt />
             </figure>
           </div>
         </section>
