@@ -28,6 +28,8 @@ function Body() {
             ))}
         </div>
       </div>
+    
+
       <section id="profile">
         <div className="section__pic-container">
           <img

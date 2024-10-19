@@ -69,7 +69,7 @@ a,
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: 100%;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -273,18 +273,7 @@ section {
   }
   
 
-.autoRotate{
-    animation: autoRotateAnimation;
-    animation-timeline: view();
-}
-@keyframes autoRotateAnimation{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(469deg);
-    }
-}
+
 .autoShow{
     animation: autoShowAnimation both;
     animation-timeline: view(70% 5%);

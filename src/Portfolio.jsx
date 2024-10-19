@@ -3,9 +3,9 @@ import "./Portfolio.css";
 function Portfolio() {
   const isReverse = true;
   return (
+    <section id="projects">
     <main>
       <div>
-        <p className="section__text__p1">Browse My Recent</p>
         <h1 className="title">Projects</h1>
       </div>
 
@@ -35,6 +35,7 @@ function Portfolio() {
         </div>
       </div>
     </main>
+    </section>
   );
 }
 
