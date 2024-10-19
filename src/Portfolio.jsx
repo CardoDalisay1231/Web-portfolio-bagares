@@ -4,8 +4,15 @@ function Portfolio() {
   const isReverse = true;
   return (
     <main>
+      <div>
+        <p className="section__text__p1">Browse My Recent</p>
+        <h1 className="title">Projects</h1>
+      </div>
+
+      <br />
+      <br />
       <div
-        className={`slider ${isReverse ? 'reverse' : ''}`} // Use the isReverse variable here
+        className={`slider ${isReverse ? "reverse" : ""}`} // Use the isReverse variable here
         style={{ "--width": "200px", "--height": "200px", "--quantity": 9 }}
       >
         <div className="list">
