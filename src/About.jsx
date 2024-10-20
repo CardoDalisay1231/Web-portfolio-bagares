@@ -27,9 +27,7 @@ function About() {
   return (
     <section
       id="about"
-      className={`${
-        isVisible ? "animate__animated animate__fadeInUp" : ""
-      }`} // Apply animation if visible
+      className={`${isVisible ? "animate__animated animate__fadeInUp" : ""}`} // Apply animation if visible
     >
       <p className="section__text__p1">Get To Know More</p>
       <h1 className="title">About Me</h1>
@@ -73,12 +71,13 @@ function About() {
           </div>
           <div className="text-container">
             <p>
-              I'm Jan Manuel Bagares from T.S Cruz, LasPiñas City. I'm a 3rd year
-              student at CVSU Bacoor i'm a computer science student. I'm a
-              self-taught developer and a designer. I'm passionate about creating
-              something new and innovative. Although I'm still a newbie, I'm eager to
-              learn more and improve my skills. I'm a team player and a quick learner.
-              I'm excited to collaborate with you and create something amazing.
+              I'm Jan Manuel Bagares from T.S Cruz, LasPiñas City. I'm a 3rd
+              year College student at CVSU Bacoor i'm a computer science
+              student. I'm a self-taught developer and a designer. I'm
+              passionate about creating something new and innovative. Although
+              I'm still a newbie, I'm eager to learn more and improve my skills.
+              I'm a team player and a quick learner. I'm excited to collaborate
+              with you and create something amazing.
             </p>
           </div>
         </div>
