@@ -98,7 +98,7 @@ function Portfolio() {
     <section id="projects" style={{ position: "relative" }}>
       <main>
         <div>
-          <h1 className="title">Projects</h1>
+          <h1 className="title-project">Projects</h1>
           <p className="section__text__p1">
             Click the Picture for more Details
           </p>
@@ -108,8 +108,8 @@ function Portfolio() {
         <div
           className={`slider ${isReverse ? "reverse" : ""}`}
           style={{
-            "--width": "200px",
-            "--height": "200px",
+            "--width": "clamp(100px, 20vw, 200px)",
+            "--height": "clamp(100px, 20vw, 200px)",
             "--quantity": projectDetails.length,
           }}
         >

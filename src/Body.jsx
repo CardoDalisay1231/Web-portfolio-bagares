@@ -2,17 +2,21 @@ import "./Body.css";
 import "./mediaqueries.css";
 function Body() {
   const openFacebook = () => {
-    window.open('https://www.facebook.com/jm.bagares.14/', '_blank');
+    window.open("https://www.facebook.com/jm.bagares.14/", "_blank");
   };
 
   const openGithub = () => {
-    window.open('https://github.com/CardoDalisay1231', '_blank');
+    window.open("https://github.com/CardoDalisay1231", "_blank");
   };
   return (
     <div>
       <div
         className="slider"
-        style={{ "--width": "70px", "--height": "70px", "--quantity": 10 }}
+        style={{
+          "--quantity": 10,
+          "--width": "clamp(40px, 7vw, 70px)",
+          "--height": "clamp(40px, 7vw, 70px)",
+        }}
       >
         <div className="list">
           {Array(10)
@@ -28,19 +32,24 @@ function Body() {
             ))}
         </div>
       </div>
-    
+      <nav class="bottom-navbar">
+        <a href="#profile">Profile</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
       <section id="profile">
         <div className="section__pic-container">
           <img
             className="roundImg"
-            src="./images/IMG_0635.JPG"
+            src="./images/jmpogi.png"
             alt="John Doe profile picture"
           />
         </div>
         <div className="section__text">
           <p className="section__text__p1">Hello, I'm</p>
-          <h1 className="title">Jan Manuel Bagares</h1>
+          <h1 className="title">JAN MANUEL M. BAGARES</h1>
           <p className="section__text__p2">Frontend Developer</p>
           <div id="socials-container">
             <img

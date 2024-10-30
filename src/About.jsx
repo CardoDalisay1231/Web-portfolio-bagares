@@ -30,7 +30,7 @@ function About() {
       className={`${isVisible ? "animate__animated animate__fadeInUp" : ""}`} // Apply animation if visible
     >
       <p className="section__text__p1">Get To Know More</p>
-      <h1 className="title">About Me</h1>
+      <h1 className="title-about">About Me</h1>
       <div className="section-container">
         <div className="section__pic-container">
           <img

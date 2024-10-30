@@ -40,6 +40,8 @@
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
+    justify-content: center; /* This will center the content vertically */
+    
   }
   .about-containers {
     margin-top: 0;
@@ -53,16 +55,21 @@
   }
   #profile {
     height: 88vh; /* Change to full viewport height */
-    margin-bottom: 0;
+    margin-bottom: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: center; /* This will center the content vertically */
     align-items: center;
   }
 
-  #profile .roundImg {
+  #profile  {
     max-width: 100%; /* Prevent image from exceeding parent width */
     height: auto; /* Maintain aspect ratio */
+  }
+  .roundImg{
+    border-radius: 50%;
+    max-width: 70%;
+
   }
   article {
     font-size: 1rem;
@@ -102,8 +109,25 @@
   .section__text__p2 {
     font-size: 1.25rem;
   }
+  .section__text{
+    margin-top: -2rem;
+  }
   .title {
     font-size: 2rem;
   }
-  
+  .title-about,.title-project,.title-contact{
+    font-size : 3rem;
+  }
+  footer p{
+    font-size: 12px;
+  }
+  .bottom-navbar {
+    gap: 0.75rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .bottom-navbar a {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
+  }
 }
